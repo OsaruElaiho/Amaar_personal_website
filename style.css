@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: white;
+}
+
+h1 {
+  display: inline;
+}
+
+.Main-Header {
+  text-align: center;
+}
+
+.Header-intro {
+  margin-bottom: 5px;
+}
+
+.Biography {
+  text-align: left;
+}
+
+.profile-pic {
+  width: 30vh;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bio-main {
+  display: flex;
+  flex-direction: row;
+  outline: red solid 1px;
+}
