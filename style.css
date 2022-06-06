@@ -21,7 +21,7 @@ h1 {
   margin-bottom: 5px;
 }
 
-.Biography {
+.bio {
   text-align: left;
 }
 
@@ -34,5 +34,17 @@ h1 {
 .bio-main {
   display: flex;
   flex-direction: row;
-  outline: red solid 1px;
+  outline: black solid 1px;
+}
+
+.p-Containers {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.proj {
+  outline: black solid 1px;
+  display: flex;
+  flex-direction: column;
 }
